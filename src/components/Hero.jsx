@@ -4,9 +4,6 @@ export default function Hero() {
   return (
     <section className=" min-h-screen flex flex-col justify-center items-center pt-20 px-4">
       <div className=" max-w-4xl text-center px-6 ">
-        <div className="inline-block rounded-full border border-white/20 bg-white/5 px-3 py-1 mb-6">
-          <span className="text-emerald-400 mr-2">•</span> Available for work
-        </div>
         <h1 className=" text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400 ">
           Building digital experiences with <br />
           <span className="...">code and creativity.</span>
