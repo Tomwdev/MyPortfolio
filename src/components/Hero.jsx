@@ -6,7 +6,7 @@ export default function Hero() {
       <div className=" max-w-4xl text-center px-6 ">
         <h1 className=" text-5xl font-bold leading-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400 ">
           Building digital experiences with <br />
-          <span className="...">code and creativity.</span>
+          <span>code and creativity.</span>
         </h1>
         <p className=" text-slate-400 text-lg mb-8 max-w-2xl mx-auto ">
           I am a passionate developer focused on building scalable web applications. 

@@ -31,10 +31,10 @@ export default function RootLayout({ children }) {
           <div className="absolute inset-0 bg-gradient-to-tr from-green-900/10 via-transparent to-lime-900/10 animate-gradient-slow"></div>
           
           {/* Subtle grid overlay */}
-          <div className="absolute inset-0 opacity-[0.15]" style={{backgroundImage: `linear-gradient(rgba(16, 185, 129, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(16, 185, 129, 0.1) 1px, transparent 1px)`, backgroundSize: '100px 100px'}}></div>
+          <div className="absolute inset-0 opacity-[0.3]" style={{backgroundImage: `linear-gradient(rgba(16, 185, 129, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(16, 185, 129, 0.1) 1px, transparent 1px)`, backgroundSize: '100px 100px'}}></div>
           
           {/* Radial glow effect from top */}
-          <div className="absolute top-50 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-emerald-600/20 rounded-full filter blur-[120px]"></div>
+          <div className="absolute top-50 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-emerald-600/25 rounded-full filter blur-[120px]"></div>
         </div>
         {children}
       </body>
