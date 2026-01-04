@@ -16,11 +16,7 @@ export default function Hero() {
           <Link href="#projects" className="bg-slate-900 dark:bg-white text-white dark:text-black rounded-md px-6 py-3 font-semibold hover:scale-105 transition-all duration-300">
             View Work
           </Link>
-          <Link href="#contact" className="border border-slate-900 dark:border-white text-slate-900 dark:text-white rounded-md px-6 py-3 font-semibold hover:bg-slate-900/10 dark:hover:bg-white/10 transition-all duration-300">
-            Contact Me
-          </Link>
         </div>
-
       </div>
     </section>
   );
