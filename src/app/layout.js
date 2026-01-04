@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "My Portfolio", // I updated this from "Create Next App"
-  description: "Portfolio site built with Next.js",
+  title: "Thomas Woodland's Portfolio Website", // I updated this from "Create Next App"
+  description: "Portfolio site built with Next.js, Tailwind CSS, and Geist UI\.",
 };
 
 export default function RootLayout({ children }) {
