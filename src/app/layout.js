@@ -19,7 +19,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-200 relative overflow-x-hidden transition-colors duration-300`}>
         {/* Animated Gradient Background */}
         <div className="fixed inset-0 z-[-2] bg-slate-50 dark:bg-slate-950 transition-colors duration-300">
