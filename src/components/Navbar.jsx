@@ -9,7 +9,8 @@ export default function Navbar() {
         <div className="grid grid-cols-3 items-center">
           <Link href="https://github.com/tomwdev" target="_blank" rel="noopener noreferrer" className="text-xl font-bold font-mono text-slate-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-600 transition-colors duration-300 justify-self-start">
             (Tomwdev<FaGithub className="inline ml-2 align-text-top-[0.2em]" />)
-          </Link>
+          </Link> { //TODO redo the navbar
+}
           <Link href="/" className="text-xl font-bold font-mono text-slate-900 dark:text-white transition-colors duration-300 justify-self-center">
             Thomas Woodland
           </Link>
