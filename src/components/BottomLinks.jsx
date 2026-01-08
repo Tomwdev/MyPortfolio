@@ -5,3 +5,5 @@ export default function ContactLinks() {
         </section>
     )
 }
+
+// emphasise inspiration from node.js website

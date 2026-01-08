@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
 export default function ThemeToggle() {
-    const { theme, setTheme } = useTheme();
+    const { theme, setTheme, resolvedTheme } = useTheme()
 
     const toggleTheme = () => {
         if (theme === 'light') {
@@ -19,8 +19,9 @@ export default function ThemeToggle() {
         <button
             onClick={toggleTheme}
             className="p-2 rounded-lg border border-slate-300 dark:border-white/20 bg-slate-200/50 dark:bg-white/5 hover:bg-slate-300/50 dark:hover:bg-white/10 transition-colors text-slate-900 dark:text-white"
+            suppressHydrationWarning
         >
-            {theme === 'light' ? <FaSun size={20} /> : <FaMoon size={20} />}
+            {(theme || resolvedTheme) === 'light' ? <FaSun size={20} /> : <FaMoon size={20} />}
         </button>
     )
 }
