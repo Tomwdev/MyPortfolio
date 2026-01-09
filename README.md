@@ -6,7 +6,7 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS. This
 
 This site is automatically deployed to GitHub Pages using GitHub Actions.
 
-**Visit:** [https://tomwdev.github.io/my-portfolio](https://tomwdev.github.io/my-portfolio)
+**Visit:** [https://tomwdev.github.io/MyPortfolio/](https://tomwdev.github.io/MyPortfolio/)
 
 ## ✨ Features
 
@@ -21,7 +21,6 @@ This site is automatically deployed to GitHub Pages using GitHub Actions.
 - **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
 - **Theme Management:** [next-themes](https://github.com/pacocoursey/next-themes)
 - **Icons:** [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
-- **Animations:** [Motion](https://motion.dev/)
 - **Fonts:** [Geist](https://vercel.com/font) by Vercel
 - **Deployment:** GitHub Pages with GitHub Actions
 
