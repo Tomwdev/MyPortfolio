@@ -2,20 +2,13 @@
 
 A modern, responsive portfolio website built with Next.js and Tailwind CSS. This site showcases my projects, skills, and experience as a developer. The site features a dark/light theme toggle and animated gradient backgrounds.
 
-## 🌐 Live Site
+##  Live Site
 
 This site is automatically deployed to GitHub Pages using GitHub Actions.
 
 **Visit:** [https://tomwdev.github.io/MyPortfolio/](https://tomwdev.github.io/MyPortfolio/)
 
-## ✨ Features
-
-- Fully responsive across all devices
-- Dark/light theme toggle
-- Animated gradient backgrounds
-- Clean, modern design
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework:** [Next.js 16](https://nextjs.org/)
 - **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
@@ -24,7 +17,7 @@ This site is automatically deployed to GitHub Pages using GitHub Actions.
 - **Fonts:** [Geist](https://vercel.com/font) by Vercel
 - **Deployment:** GitHub Pages with GitHub Actions
 
-## � Deployment
+##  Deployment
 
 This site is automatically deployed to GitHub Pages using GitHub Actions. The workflow is triggered on every push to the `master` branch.
 
@@ -42,7 +35,7 @@ The deployment workflow:
 - Builds the Next.js site with static export
 - Uploads and deploys to GitHub Pages
 
-## �📂 Project Structure
+##  Project Structure
 
 ```
 my-portfolio/
@@ -69,7 +62,7 @@ my-portfolio/
 └── README.md
 ```
 
-## 📧 Contact
+##  Contact
 
 Thomas Woodland - [@tomwdev](https://github.com/tomwdev)
 
